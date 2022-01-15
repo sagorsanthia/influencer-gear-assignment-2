@@ -34,31 +34,6 @@ body {
  Header Navigation Section
 ||||||||||||||||||||||||||||
 */
-/* .header-menu {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 80px;
-}
-.brand-name h1 {
-  color: #3A3A3A;
-  font-size: 1.2rem;
-}
-.brand-menu a {
-  text-decoration: none;
-  color: #3A3A3A;
-  font-size: 16px;
-  padding:0 17px ;
-  transition: .1s linear;
-}
-.brand-menu a:hover {
-  background:  #E02C6D;
-  color: white;
-} */
-
-
-
-
 .header-menu {
   display: flex;
   justify-content: space-between;
@@ -79,6 +54,9 @@ body {
 .brand-menu a:hover {
   background:  #E02C6D;
   color: white;
+} 
+.mobile-responsive {
+  display: none;
 }
 /*
 ||||||||||||||||||||||||||||
@@ -300,18 +278,28 @@ footer p {
 */
 @media screen and (max-width: 688px) {
   /* Navigation-section */
-  .header-menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 80px;
+ .menu-mobile {
+    display: none;
   }
-  .brand-name h1 {
-    color: #3A3A3A;
-    font-size: 1.2rem;
+  .mobile-responsive {
+    margin-right: 20px;
+    display: inline-block;
   }
- 
-
+ .border-width {
+   border: 1px solid gray;
+   width: 30px;
+   margin-bottom: 5px;
+ }
+ .border-width1 {
+  border: 1px solid gray;
+  width: 30px;
+  margin-bottom: 5px;
+}
+.border-width2 {
+   border: 1px solid gray;
+   width: 30px;
+   margin-bottom: 5px;
+ }
   /* Intro Section */
   .intro-section {
     display: flex;
